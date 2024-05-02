@@ -1,0 +1,37 @@
+/* //ESTRUCTURA O SINTAXSIS DE UN ESTILO
+selector {
+    Declaracion1;
+    Declaracion2;
+    ...
+    //ESTRUCTURA DE UNA DECLARACION
+    propiedad:valor
+}
+
+*/
+
+
+/* el "*" es el selector universal  */
+/* *{  
+            color: blue;
+            background-color: red;
+        }
+        */
+/*Selector Tipo Elemento*/
+h1 {
+    /* este es el selector*/
+    color: burlywood;
+    background: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Selector tipo clase */
+.clasemedia {
+    color: whitesmoke;
+    background-color: darkmagenta;
+}
+
+.clasealta {
+    color: aquamarine;
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

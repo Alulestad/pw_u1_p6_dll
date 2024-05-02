@@ -1,0 +1,50 @@
+.menu li{ /* Es forma de declaracion jeraquica, solo funciona con padre e hijo */
+    list-style: none; /*estamos diciendo que esta lista desaparesca*/
+    display: inline-block; /*se muestra en linea horizontal*/
+    /* margin: 10px; */ /* aplica a los 4 lados */
+    margin: 5px 15px; /* el primer numero aplica arriba y abajo, el segundo digito aplica 
+    a la izquierda y a la derecha */
+    /* margin: 10px 20px 30px 40px ; */ /* se modifica en sentido horario */
+    /* margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    margin-left: 90px; */
+
+    border: 1px double black; /* ancho de 1px, tipo solido ,color negro */
+    padding: 5px 10px; 
+    font-family: Arial, Helvetica, sans-serif; /* se refiere a letras, permite 
+    escojer un tipo de letra especifica*/
+    font-size: 20px; /* es el tamaño de letra */
+
+} 
+
+.menu {
+    background: #0AEEE3;
+    padding: 5px 15px;
+    text-align: left;
+    margin: 20px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+/*
+.menu,li{
+ color: red;
+}
+li{
+    background-color: black;
+}
+*/
+
+
