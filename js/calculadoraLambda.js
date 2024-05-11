@@ -256,6 +256,85 @@ function conceptosJS(){
     
 }
 
+function operadoresJS(){
+    //igual
+    if ("6" == 6){
+        console.log("True: \"6\" == 6 ");
+    }else{
+        console.log("False: \"6\" == 6 ");
+    }
+
+    if (6 == 6 ){
+        console.log("True: 6 == 6 ");
+    }else{
+        console.log("False: 6 == 6 ");
+    }
+
+    //estrictamente igual  
+    if ("6" === 6){
+        console.log("True: \"6\" === 6 ");
+    }else{
+        console.log("False: \"6\" === 6 ");
+    }
+
+    if (6 === 6 ){
+        console.log("True: 6 === 6 ");
+    }else{
+        console.log("False: 6 === 6 ");
+    }
+
+    //no es igual
+    if ("6" != 6){
+        console.log("True: \"6\" != 6 ");
+    }else{
+        console.log("False: \"6\" != 6 ");
+    }
+
+    if (6 != 6 ){
+        console.log("True: 6 != 6 ");
+    }else{
+        console.log("False: 6 != 6 ");
+    }
+
+    //desigualdad estricta
+    if ("6" !== 6){
+        console.log("True: \"6\" !== 6 ");
+    }else{
+        console.log("False: \"6\" !== 6 ");
+    }
+
+    if (6 !== 6 ){
+        console.log("True: 6 !== 6 ");
+    }else{
+        console.log("False: 6 !== 6 ");
+    }
+
+    //mayor que
+    if (6 > 5 ){
+        console.log("True: 6 > 5 ");
+    }else{
+        console.log("False: 6 > 5 ");
+    }
+    //mayor o igual que
+    if (6 >= 5 ){
+        console.log("True: 6 >= 5 ");
+    }else{
+        console.log("False: 6 >= 5 ");
+    }
+    //menor que
+    if (6 < 5 ){
+        console.log("True: 6 < 5 ");
+    }else{
+        console.log("False: 6 < 5 ");
+    }
+    //menor o igual que
+    if (6 <= 5 ){
+        console.log("True: 6 <= 5 ");
+    }else{
+        console.log("False: 6 <= 5 ");
+    }
+}
+
 
 
 
