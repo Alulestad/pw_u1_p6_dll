@@ -1,0 +1,57 @@
+
+.container{
+    display: flex; /* FIJO. permite manipular del entorno, es flexible */
+    justify-content: center; /* alineacion del container al centro */
+    align-items: center; /* items alineados al centro */
+
+
+
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,75px); /* la grilla tiene 3 columnas. Pone el tamaño de cada */
+    /* grid-template-rows: 150px 75px 75px 75px 75px 75px; */
+    grid-template-rows: 150px repeat(5,75px); /* 3 columnas y 4 filas */
+    /* Es posible que las filas puedan pasarse, funciona, pero el resto deja con valores default */
+    background: rgb(201, 251, 150);
+    padding: 15px;
+    border-radius: 33px; /* Borde del cuadrado */
+    box-shadow: 15px 10px 5px 5px rgb(21, 50, 53); /* arriba, derecha, abajo, izquierda SOMBRAS*/
+}
+
+.display{
+    grid-column: span 4;/* Permite ocupar 4 espacios en la grilla */
+    padding: 20px;
+    background: rgba(40, 79, 40, 0.4);
+    border-radius: 33px;
+    text-align: right;
+    margin:   20px 10px 20px 10px;
+    box-shadow: 0px 0px 0px 10px rgb(21, 50, 53); /* arriba, derecha, abajo, izquierda SOMBRAS*/
+}
+
+.col-2{
+    grid-column: span 2;/* Permite ocupar 2 espacios en la grilla */
+}
+
+button{
+    cursor: pointer; /* Estilo tipo puntero, se pone la manito */
+    margin: 5px;
+    border-radius: 22px;
+    border: none;
+    background: #4fbf7f;
+    font-size: 25px;
+    box-shadow: 0px 0px 0px 0px rgb(10, 45, 20); /* arriba, derecha, abajo, izquierda SOMBRAS*/
+
+}
+
+button:active{
+    background: rgb(131, 215, 131);
+}
+
+*{
+    color:rgb(41, 40, 40)
+}
+body{
+    background: rgb(99, 98, 98);
+}
