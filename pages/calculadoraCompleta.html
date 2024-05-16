@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Completa</title>
     <link rel="stylesheet" href="../css/calculadora.css">
+
+    <script src="../js/calculadoraCompleta.js">
+
+    </script>
 </head>
 
 <body>
@@ -14,25 +18,25 @@
     <section>
         <div class="container">
             <div class="calculadora">
-                <div class="display">0</div>
-                <button class="col-2">C</button>
-                <button>&larr;</button>
-                <button>/</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                <button class="col-2">0</button>
-                <button>.</button>
-                <button>=</button>
+                <div class="display" id="idpantalla">0</div>
+                <button onclick="limpiarPantalla();resetVariables();" class="col-2" >C</button>
+                <button onclick="eliminarNumeroPantalla();">&larr;</button>
+                <button onclick="ponerOperador('/')">/</button>
+                <button onclick="agregarNumeroPantalla(7);">7</button>
+                <button onclick="agregarNumeroPantalla(8);">8</button>
+                <button onclick="agregarNumeroPantalla(9);">9</button>
+                <button onclick="ponerOperador('x');">x</button>
+                <button onclick="agregarNumeroPantalla(4);">4</button>
+                <button onclick="agregarNumeroPantalla(5);">5</button>
+                <button onclick="agregarNumeroPantalla(6);">6</button>
+                <button onclick="ponerOperador('-');">-</button>
+                <button onclick="agregarNumeroPantalla(1);">1</button>
+                <button onclick="agregarNumeroPantalla(2);">2</button>
+                <button onclick="agregarNumeroPantalla(3);">3</button>
+                <button onclick="ponerOperador('+');">+</button>
+                <button class="col-2" onclick="agregarNumeroPantalla(0);">0</button>
+                <button onclick="agregarNumeroPantalla('.');">.</button>
+                <button onclick="solucionar();">=</button>
 
             </div>
         </div>
