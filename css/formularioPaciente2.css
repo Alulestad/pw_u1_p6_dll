@@ -1,14 +1,19 @@
-.container{
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: center;/* se alinea el contenidoe jemploel texto guardar, cual es el contenido del div?: el centro */
     align-items: center;
 
 }
-body{
+
+
+
+
+
+body {
     background: rgb(139, 230, 246);
 }
 
-p:before{
+p:before {
     content: attr(type);
     display: block;
     margin: 3px 2px;
@@ -16,29 +21,38 @@ p:before{
     color: rgb(20, 2, 137);
 }
 
-input{
-    width: 320px;
+input {
+    width: 200px;
     border: none;
-    border-bottom: 2px solid rgb(70, 1, 1); /* Borde unicamente hacia abajo */
+    border-bottom: 2px solid rgb(70, 1, 1);
+    /* Borde unicamente hacia abajo */
     background: none;
 }
+.tituloPrincipal{
+    margin: auto;
+}
 
-input:focus{
+
+
+input:focus {
     outline: none;
     border-bottom: 2px solid rgb(144, 100, 100);
 }
 
-h2{
+h2 {
     margin: 10px 2px;
-    width: 180px; /* ancho */
+    width: 180px;
+    /* ancho */
     color: rgb(1, 66, 18);
     border-bottom: 3px solid rgb(197, 190, 190);
-
-
 }
 
-.form{ /* se trata de siempre definir un tamaño */
-    width: 350px;
+.form {
+    /* se trata de siempre definir un tamaño */
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 70px repeat(5,75px);
+    width: 850px;
     height: 400px;
     background: rgb(16, 137, 141);
     border-radius: 10px;
@@ -46,8 +60,6 @@ h2{
 
     box-shadow: 0 0 40px 5px black;
 
-    justify-content: center;
-    align-items: center;
 }
 
 .boton{
@@ -78,6 +90,12 @@ button{
 
 
 
+.col-3{
+    grid-column: span 3;/* Permite ocupar 2 espacios en la grilla */
+    height: 40px;
+    margin: 0px 5px;
+
+}
 
 #datosBasicos{
     margin:  auto 5px;;
