@@ -3,7 +3,7 @@
     display: flex; /* FIJO. permite manipular del entorno, es flexible */
     justify-content: center; /* alineacion del container al centro */
     align-items: center; /* items alineados al centro */
-
+    
 
 
 }

@@ -1,7 +1,15 @@
 .container{
-    display: flex;
+    display: flex; /* 
+    el contenido dentro del contenedor 
+    puede ser flexible y se ajustará 
+    automáticamente a su espacio disponible. */
     justify-content: center;
-    align-items: center;
+    /* los items (o elementos) dentro del contenedor 
+    se alineen al centro horizontalmente. 
+    Hay varios valores posibles para esta propiedad, 
+    como flex-start, center, space-between, etc. */
+    align-items: center;/* los items (o elementos) 
+    dentro del contenedor se alineen al centro verticalmente */
 
 }
 body{
@@ -46,8 +54,6 @@ h2{
 
     box-shadow: 0 0 40px 5px black;
 
-    justify-content: center;
-    align-items: center;
 }
 
 .boton{
